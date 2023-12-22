@@ -7,6 +7,7 @@ import { TRPCReactProvider } from "@/trpc/react";
 import { MantineProvider, type MantineThemeOverride } from "@mantine/core";
 import '@mantine/core/styles.css';
 import '@mantine/notifications/styles.css';
+import '@mantine/carousel/styles.css';
 import { Notifications } from "@mantine/notifications";
 
 import { theme as baseTheme} from "@/config/theme";
